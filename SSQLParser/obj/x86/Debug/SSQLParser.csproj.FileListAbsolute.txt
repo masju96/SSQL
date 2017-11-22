@@ -1,0 +1,5 @@
+/home/juan/Escritorio/Juan/Analizador Sintactico SQL/SSQLParser/SSQLParser/SSQLParser/obj/x86/Debug/SSQLParser.csproj.CoreCompileInputs.cache
+/home/juan/Escritorio/Juan/Analizador Sintactico SQL/SSQLParser/SSQLParser/SSQLParser/bin/Debug/SSQLParser.exe
+/home/juan/Escritorio/Juan/Analizador Sintactico SQL/SSQLParser/SSQLParser/SSQLParser/bin/Debug/SSQLParser.pdb
+/home/juan/Escritorio/Juan/Analizador Sintactico SQL/SSQLParser/SSQLParser/SSQLParser/obj/x86/Debug/SSQLParser.exe
+/home/juan/Escritorio/Juan/Analizador Sintactico SQL/SSQLParser/SSQLParser/SSQLParser/obj/x86/Debug/SSQLParser.pdb
