@@ -27,8 +27,9 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="EmptyClass.cs" />
+    <Compile Include="SSQL.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="InvalidSQLException.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

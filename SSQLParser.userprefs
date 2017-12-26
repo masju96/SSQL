@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{D9A22A7D-E2C4-4FEB-9EF0-1CB77DC24AD1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SSQLParser/EmptyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SSQLParser/Main.cs">
     <Files>
-      <File FileName="SSQLParser/EmptyClass.cs" Line="100" Column="10" />
+      <File FileName="SSQLParser/SSQL.cs" Line="33" Column="90" />
+      <File FileName="SSQLParser/Main.cs" Line="17" Column="42" />
+      <File FileName="SSQLParser/InvalidSQLException.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

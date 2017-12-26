@@ -1,22 +1,36 @@
 ﻿using System;
 
-//compile with: /unsafe 
-
 namespace SSQLParser
 {
     public class Spm
     {
-        unsafe static void Main(string[] args)
+        static void Main(string[] args)
 		{
-            int zero = 0;
-            int* i = &zero;
-            incr(&i);
-            System.Console.Write(i);
-		}
+            //For testing purpouses
+            SSQL sql_query;
 
-        unsafe static private void incr(int* i)
-        {
-            i++;
-        }
+            try
+            {
+                sql_query = new SSQL("SELect useRS, victims FROM USERS");
+
+                foreach (string s in sql_query.getTargets())
+    				Console.WriteLine("Selecciono: " + s);
+
+                foreach (string s in sql_query.getTables())
+					Console.WriteLine("De la tabla: " + s);
+
+				Console.WriteLine("Ordenado por: " + sql_query.getOrderingIndex());
+            }
+            catch (InvalidSQLException ex){
+                Console.WriteLine(ex.Message);
+				Console.WriteLine(ex.StackTrace);
+			}
+            catch (NullReferenceException ex){
+                Console.WriteLine("Invalid SQL syntax");
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+            }
+
+		}
     }
 }
